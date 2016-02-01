@@ -1,0 +1,27 @@
+{
+    "name": "beeare/tdd_prepatedkata",
+    "description": "Prepared Kata Examples showing the basic principles of TDD in PHP",
+    "license": "MIT",
+    "keywords": [
+        "prepared kata",
+        "tdd",
+        "test-driven"
+    ],
+    "authors": [
+        {
+            "name": "Benjamin Rack",
+            "email": "beeare@gmx.de"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "5.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "beeare\\TDD": "src"
+        },
+        "psr-4": {
+            "beeare\\TDD\\": "src"
+        }
+    }
+}
